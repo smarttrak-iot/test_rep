@@ -377,7 +377,7 @@ style={
 button =html.Div(
            dbc.Row(
               [
-                  dbc.Col(dbc.Button("Login",color="primary",className="mb-3",href="#"),style={"padding-left":"30rem","width":"5rem"})]))
+                  dbc.Col(dbc.Button("Login",color="primary",className="mb-3",href="#"),style={"padding-left":"20rem","width":"5rem"})]))
 navbar = dbc.Navbar(
            html.Div(
                 # Use row and col to control vertical alignment of logo / brand
@@ -385,7 +385,7 @@ navbar = dbc.Navbar(
                     [
                         dbc.Col(
                             dbc.NavbarBrand(
-                                html.H2((html.Img(src=LOGO1,height="90px",width="auto"))),style={"fontSize":"50px","padding-left":"30rem"})),
+                                html.H2((html.Img(src=LOGO1,height="60px",width="auto"))),style={"fontSize":"50px","padding-left":"25rem"})),
                         dbc.NavbarToggler(id="navbar-toggler"),
                          dbc.Collapse(sidebar,id="sidebar-collapse",navbar=True),
                          dbc.Collapse(button,id="button-collapse",navbar=True)
